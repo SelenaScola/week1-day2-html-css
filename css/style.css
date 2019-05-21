@@ -1,0 +1,25 @@
+
+body {
+    background-color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: #333333;
+    margin: 0;
+    padding: 0px
+
+    }
+
+header {
+      background-color: #333333;
+      font: #eee;
+     
+      font-size: 28px;
+      margin: 0;
+      padding: 10;
+    }
+    
+  
+.contact {
+  float: right;
+  
+}
+

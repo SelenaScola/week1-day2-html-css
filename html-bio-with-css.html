@@ -6,61 +6,39 @@
 <head>
   <meta charset="UTF-8">
   <title>CSS Stylesheets with Relative Paths</title>
- 
-  <link rel="stylesheet" type="txt/css" href="css/style.css">
 
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <style>
-body {
-      background-color: #efeee7;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      font: #333333;
-      margin: 0;
-      padding: 0px
-  
-      }
-
-</style>
   <header>
     <h1>Student Bio</h1>
-
-    <style>
-      header {
-        background-color: #333333;
-        font: #eee;
-       
-        font-size: 28px;
-        margin: 0;
-        padding: 10;
-      }
-      
-    
-    </style>
   </header>
-  
+
   <div class="container">
-
-    <sextion id="main-bio">
-
+    
+    <section id="main-bio">
+    
       <h2>Selena Scola</h2>
+   
+    <img id="bio-image"
+      src="https://yt3.ggpht.com/a-/AAuE7mDDQyVOf_Y_lPKBilBUv-mhRxoBF6m6w-Vo_w=s900-mo-c-c0xffffffff-rj-k-no"
+      alt="selena scola" width="200" height="200">
+  
+      <p>Write a short paragraph or two about yourself, or use placeholder text from <a
+          href="http://www.lipsum.com/">www.lipsum.com</a></p>
+      </section>
+    </div>
 
-      <img id="bio image" src="https://yt3.ggpht.com/a-/AAuE7mDDQyVOf_Y_lPKBilBUv-mhRxoBF6m6w-Vo_w=s900-mo-c-c0xffffffff-rj-k-no" alt="selena scola" width="200" height="200">
-     
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
-    </section>
-
-    <section id="container-info">
+  <div class id="contact-info">
       <h2>Contact Info</h2>
       <ul>
-          <address>
-        <li><strong>Email:</strong> <a class="mailto:ss@byinagination.com" href="#">ss@byinagination.com</a></li>
-          </address>
-        <li><strong>Github:</strong> <a class="github" href= "https://github.com/SelenaScola">github.com/SelenaScola</a> </a></li>
-        <li><strong>Website: </strong><a class="personal-website" href= "https://selenascola.com/">selenascola.com</a></li> 
+        <li><strong>Email:</strong> <a class id="mailto:ss@byinagination.com" href="#">ss@byinagination.com</a></li>
+        <li><strong>Github:</strong> <a class id="github"
+            href="https://github.com/SelenaScola">github.com/SelenaScola</a></li>
+        <li><strong>Website:</strong> <a class id="personal-website" href="https://selenascola.com/">selenascola.com</a>
+        </li>
       </ul>
-    </section>
   </div>
 
 </body>
